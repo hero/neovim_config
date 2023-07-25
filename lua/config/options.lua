@@ -24,7 +24,7 @@ vim.o.hidden = true
 vim.o.breakindent = true
 
 -- Add clipboard support
-vim.o.clipboard = 'unnamed'
+vim.o.clipboard = 'unnamedplus'
 
 -- Use swapfiles
 vim.o.swapfile = false
@@ -160,12 +160,12 @@ vim.opt.backupdir = vim.fn.stdpath('state') .. '/backup'
 vim.opt.undodir = vim.fn.stdpath('state') .. '/undo'
 
 -- Set python3 interpreter
-vim.g.python3_host_prog = '/opt/local/bin/python3'
+vim.g.python3_host_prog = '/home/wuking/.pyenv/shims/python'
 
 -- Disable some builtin providers
-vim.g.loaded_python_provider = 0
+vim.g.loaded_python_provider = 1
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_perl_provider = 0
-vim.g.loaded_node_provider = 0
+vim.g.loaded_node_provider = 1
 vim.g.loaded_netrwPlugin = 1
 vim.g.loaded_netrw = 1

@@ -1,7 +1,7 @@
 vim.cmd([[
 " ========= custom highlight group(buildin & Treesitter) settings =======
 hi Comment cterm=NONE ctermfg=245 gui=NONE guifg=#928374
-hi GitSignsCurrentLineBlame ctermfg=245 gui=italic guifg=#928374
+" hi GitSignsCurrentLineBlame ctermfg=245 gui=italic guifg=#928374
 
 hi TSKeyword ctermfg=167 gui=italic guifg=#ea6962
 hi TSKeywordFunction ctermfg=167 gui=italic guifg=#ea6962

@@ -57,19 +57,25 @@ bind('n', '<C-q>', '<C-w>q')
 bind('n', '<C-\\>', '<C-w><bar>')
 
 -- Auto indent pasted text
+-- paste after cursor
 bind('n', 'p', ']p')
+-- paste before cursor
 bind('n', 'P', '[p')
+-- jump between paired parenthesis or (curly/square) brackets
 bind('n', '(', '%')
 bind('n', ')', '%')
 bind('n', '<TAB>', '%')
 
 -- turn off direction keyboard, force yourself use `hjkl` !!!
-bind('n', '<Left>', '<Nop>')
-bind('n', '<Right>', '<Nop>')
-bind('n', '<Up>', '<Nop>')
-bind('n', '<Down>', '<Nop>')
+-- bind('n', '<Left>', '<Nop>')
+-- bind('n', '<Right>', '<Nop>')
+-- bind('n', '<Up>', '<Nop>')
+-- bind('n', '<Down>', '<Nop>')
+-- `space` key for quick search in Normal mode
 bind('n', '<space>', '/\\v')
+-- go to the Next Buffer 
 bind('n', '<Esc>[1;3D', '<CMD>bn<CR>')
+-- go to the previous Buffer
 bind('n', '<Esc>[1;3C', '<CMD>bp<CR>')
 
 -- tab quick swich
