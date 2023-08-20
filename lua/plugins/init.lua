@@ -386,12 +386,12 @@ return {
         'folke/neodev.nvim',
         opts = {},
     },
-    {
-        'NeogitOrg/neogit',
-        dependencies = 'nvim-lua/plenary.nvim',
-        event = 'VeryLazy',
-        config = function()
-            require('neogit').setup({})
-        end,
-    },
+    -- {
+    --     'NeogitOrg/neogit',
+    --     dependencies = 'nvim-lua/plenary.nvim',
+    --     event = 'VeryLazy',
+    --     config = function()
+    --         require('neogit').setup({})
+    --     end,
+    -- },
 }
