@@ -160,7 +160,7 @@ vim.opt.backupdir = vim.fn.stdpath('state') .. '/backup'
 vim.opt.undodir = vim.fn.stdpath('state') .. '/undo'
 
 -- Set python3 interpreter
-vim.g.python3_host_prog = '/home/wuking/.pyenv/shims/python'
+vim.g.python3_host_prog = '/c/Users/wuyin/.pyenv/pyenv-win/shims/python'
 
 -- Disable some builtin providers
 vim.g.loaded_python_provider = 1
